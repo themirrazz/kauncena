@@ -7,7 +7,7 @@ function cbypass_v(text) {
         "death",
         "murder",
         /* uncensor mild sexual content */
-        "sex",
+        "sexy",
         "s&m",
         "ligma",
         "deez",
@@ -21,10 +21,14 @@ function cbypass_v(text) {
         "wtf",
         "baka",
         "kuso",
+        "bastard",
+        "twat",
+        "prick",
         /* uncensor mild profanity */
         "damn",
         "dammit",
-        "ass"
+        "ass",
+        "bloody"
     ];
     for(var i = 0; i < text.length; i++) {
         var Allow = false;
